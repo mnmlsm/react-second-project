@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.App {
+    width: 317px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 317px;
+    height: 317px;
+    background-image: url(./images/ProfileImage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.main {
+    background-color: #1A1B21;
+    color: white;
+    padding-bottom: 48px;
+}
+
+.up-field__username {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    padding-top: 21px;
+}
+.up-field__specialization {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+    margin: 0;
+}
+.up-field__site {
+    margin: 10px 25px;
+    text-align: center;
+    color: #F5F5F5;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+.buttons-set {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 247px;
+}
+.buttons-set > button {
+    width: 115px;
+    height: 34px;
+}
+
+.button-set__email-button {
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.button-set__linkedin-button {
+    background: #5093E2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+}
+
+
+.main__username {
+    text-align: center;
+}
+
+
+
+.text-field__header {
+    margin: 0;
+    padding-top: 31px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5; 
+    padding-left: 35px;
+}
+
+.text-field__content {
+    margin: 0;
+    padding: 0 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+
+
+.footer {
+    background-color: #161619;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px 0;
+}
+.footer__images-set {
+    width: 170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
